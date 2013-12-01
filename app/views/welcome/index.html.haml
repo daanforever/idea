@@ -2,9 +2,12 @@
   %h2.text-center
     У Вас есть идеи или свободное время?
   %p.text-center
-    = link_to new_idea_path, class: 'btn btn-large btn-success' do
+    = link_to new_idea_path, class: 'btn btn-large btn-primary' do
       %i.icon-cog
       = t('.have_idea')
+    = link_to ideas_path, class: 'btn btn-large btn-success' do
+      %i.icon-time
+      = t('.have_time')
 
 .row
   .span6
