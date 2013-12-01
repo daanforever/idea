@@ -1,4 +1,6 @@
 Rucamp::Application.routes.draw do
+  resources :ideas
+
   root "welcome#index"
 #  devise_for :users, ActiveAdmin::Devise.config
   devise_for :users

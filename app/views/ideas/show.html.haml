@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b User:
+  = @idea.user.email
+%p
+  %b Title:
+  = @idea.title
+%p
+  %b Body:
+  = @idea.body
+
+= link_to 'Edit', edit_idea_path(@idea)
+\|
+= link_to 'Back', ideas_path
