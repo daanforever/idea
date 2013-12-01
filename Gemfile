@@ -59,6 +59,7 @@ group :development, :test do
   gem 'annotate'                # Annotate ActiveRecord models. Usage: annotate
   gem 'zeus'                    # Boot any rails app in under a second.
   gem 'haml-rails'              # Integration for HAML
+  gem 'capistrano', '~> 3.0.1'  # Remote multi-server automation tool
 end
 
 group :test do

@@ -1,13 +1,23 @@
 .hero-unit
-  %h2.text-center
-    У Вас есть идеи или свободное время?
-  %p.text-center
-    = link_to new_idea_path, class: 'btn btn-large btn-primary' do
-      %i.icon-cog
-      = t('.have_idea')
-    = link_to ideas_path, class: 'btn btn-large btn-success' do
-      %i.icon-time
-      = t('.have_time')
+  .row
+    .span5
+      %h2.text-center
+        У Вас есть идеи?
+      %p.text-center
+        Мы поможем их реализовать
+      %p.text-center
+        = link_to new_idea_path, class: 'btn btn-large btn-primary' do
+          %i.icon-cog
+          = t('.have_idea')
+    .span5
+      %h2.text-center
+        У Вас есть время?
+      %p.text-center
+        Мы поможем провести его с пользой
+      %p.text-center
+        = link_to ideas_path, class: 'btn btn-large btn-success' do
+          %i.icon-time
+          = t('.have_time')
 
 .row
   .span6
