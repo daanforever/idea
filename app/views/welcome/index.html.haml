@@ -1,0 +1,19 @@
+.hero-unit
+  %h2.text-center
+    У Вас есть идея или свободное время?
+  %p.text-center
+    = link_to root_path, class: 'btn btn-large btn-success' do
+      %i.icon-cog
+      = t('.have_idea')
+
+.row
+  .span4
+    %h4.text-center
+      Новые идеи
+  .span4
+    %h4.text-center
+      Идеи в работе
+  .span4
+    %h4.text-center
+      Лучшие идеи
+

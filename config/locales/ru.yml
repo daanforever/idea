@@ -1,0 +1,12 @@
+ru:
+  login: Войти
+  logout: Выйти
+  welcome:
+    index:
+      have_idea:  Есть идея!
+      have_time:  Есть время!
+  devise:
+    sessions:
+      user:
+        signed_in: Добро пожаловать!
+        signed_out: Вы успешно вышли!
